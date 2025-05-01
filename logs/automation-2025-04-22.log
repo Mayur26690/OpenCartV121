@@ -1,0 +1,12 @@
+22:26:34.096 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shahm\Workspace\OpenCartV121\grouping.xml"
+22:26:34.384 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shahm\Workspace\OpenCartV121\grouping.xml
+
+22:26:46.708 [main] INFO  testCases.tc001_AccountRegistrationTest - ***Starting tc001_AccountRegistrationTest ****
+22:26:46.860 [main] INFO  testCases.tc001_AccountRegistrationTest - clicked on MyAccount link
+22:26:47.606 [main] INFO  testCases.tc001_AccountRegistrationTest - clicked on Register link
+22:26:47.611 [main] INFO  testCases.tc001_AccountRegistrationTest - Providing customer info...
+22:26:49.439 [main] INFO  testCases.tc001_AccountRegistrationTest - Validating expected message
+22:26:49.489 [main] INFO  testCases.tc001_AccountRegistrationTest - ***Ending tc001_AccountRegistrationTest ****
+22:26:59.598 [main] INFO  testCases.Tc002_LoginTest - ----Starting Tc002_LoginTest----
+22:27:02.086 [main] INFO  testCases.Tc002_LoginTest - ----Ending Tc002_LoginTest----

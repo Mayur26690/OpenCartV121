@@ -1,0 +1,26 @@
+16:22:51.958 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shahm\Workspace\OpenCartV121\testng.xml"
+16:22:52.202 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shahm\Workspace\OpenCartV121\testng.xml
+
+16:24:30.273 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shahm\Workspace\OpenCartV121\testng.xml"
+16:24:30.510 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shahm\Workspace\OpenCartV121\testng.xml
+
+16:25:55.525 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shahm\Workspace\OpenCartV121\testng.xml"
+16:25:55.742 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shahm\Workspace\OpenCartV121\testng.xml
+
+16:27:23.985 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shahm\Workspace\OpenCartV121\testng.xml"
+16:27:24.199 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shahm\Workspace\OpenCartV121\testng.xml
+
+16:29:39.007 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shahm\Workspace\OpenCartV121\testng.xml"
+16:29:39.214 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shahm\Workspace\OpenCartV121\testng.xml
+
+16:29:46.136 [main] INFO  testCases.tc001_AccountRegistrationTest - ***Starting tc001_AccountRegistrationTest ****
+16:29:46.315 [main] INFO  testCases.tc001_AccountRegistrationTest - clicked on MyAccount link
+16:29:47.051 [main] INFO  testCases.tc001_AccountRegistrationTest - clicked on Register link
+16:29:47.055 [main] INFO  testCases.tc001_AccountRegistrationTest - Providing customer info...
+16:29:49.100 [main] INFO  testCases.tc001_AccountRegistrationTest - Validating expected message
+16:29:49.155 [main] INFO  testCases.tc001_AccountRegistrationTest - ***Ending tc001_AccountRegistrationTest ****

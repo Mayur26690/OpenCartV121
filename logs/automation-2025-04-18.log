@@ -1,0 +1,17 @@
+12:21:13.261 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shahm\Workspace\OpenCartV121\testng.xml"
+12:21:13.580 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shahm\Workspace\OpenCartV121\testng.xml
+
+12:21:22.464 [main] INFO  testCases.Tc002_LoginTest - ----Starting Tc002_LoginTest----
+12:22:03.201 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shahm\Workspace\OpenCartV121\testng.xml"
+12:22:03.437 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shahm\Workspace\OpenCartV121\testng.xml
+
+12:22:09.742 [main] INFO  testCases.Tc002_LoginTest - ----Starting Tc002_LoginTest----
+12:22:16.998 [main] INFO  testCases.Tc002_LoginTest - ----Ending Tc002_LoginTest----
+12:22:38.036 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shahm\Workspace\OpenCartV121\testng.xml"
+12:22:38.282 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shahm\Workspace\OpenCartV121\testng.xml
+
+12:22:44.643 [main] INFO  testCases.Tc002_LoginTest - ----Starting Tc002_LoginTest----
+12:22:46.591 [main] INFO  testCases.Tc002_LoginTest - ----Ending Tc002_LoginTest----

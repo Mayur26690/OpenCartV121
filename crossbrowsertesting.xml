@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite thread-count="5" name="Suite" parallel="tests">
+  <listeners>
+  <listener class-name="utilities.ExtentReportManager"></listener>
+  </listeners>
+  <test name="ChromeTest">
+  <parameter name="os" value="Windows"></parameter><!-- Passed 2 parameter for browser and os -->
+  <parameter name="browser" value="Chrome"></parameter>
+    <classes>
+      <class name="testCases.tc001_AccountRegistrationTest"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="EdgeTest">
+  <parameter name="os" value="Windows"></parameter><!-- Passed 2 parameter for browser and os -->
+  <parameter name="browser" value="Edge"></parameter>
+    <classes>
+      <class name="testCases.tc001_AccountRegistrationTest"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="FirefoxTest">
+  <parameter name="os" value="Windows"></parameter><!-- Passed 2 parameter for browser and os -->
+  <parameter name="browser" value="Firefox"></parameter>
+    <classes>
+      <class name="testCases.tc001_AccountRegistrationTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration status="Info">
+
+<Properties>
+	<Property name="basePath">./logs</Property> <!-- In the current project, inside logs folder -->
+</Properties>
+
+<Appenders>
+ 	<Console name="Console" target="SYSTEM_OUT">  
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>  
+    </Console>
+	<RollingFile name="File" fileName="${basePath}/automation.log" filePattern="${basePath}/automation-%d{yyyy-MM-dd}.log"> <!-- We are using above basePath name/variable, and automation.log file name -->
+		<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>  <!-- Filepattern above is time stamp so it doesn't overwrite it and create new file everytime -->
+		<Policies>
+			<TimeBasedTriggeringPolicy interval="1" modulate="true" />
+			<SizeBasedTriggeringPolicy size="5000" />
+		</Policies>
+	</RollingFile>
+</Appenders>
+
+<Loggers>
+<Root level="Debug"> <!-- Here you can use multiple log levels --><!-- By default we put Info as QA can understand that. Debug is more for developer if needed -->
+<AppenderRef ref="File" /> <!-- Where do we want to generate logs?  -->
+<!-- AppenderRef ref="Console"/> --> <!-- This one will log in console -->
+</Root>
+</Loggers>
+
+</Configuration>

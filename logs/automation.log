@@ -1,0 +1,14 @@
+14:48:51.347 [main] INFO  testCases.TC003_LoginDDT - Test Ended
+14:48:51.359 [main] INFO  testCases.TC003_LoginDDT - Test started
+14:52:50.999 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shahm\Workspace\OpenCartV121\testng.xml"
+14:52:51.283 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shahm\Workspace\OpenCartV121\testng.xml
+
+14:53:02.712 [main] INFO  testCases.tc001_AccountRegistrationTest - ***Starting tc001_AccountRegistrationTest ****
+14:53:02.904 [main] INFO  testCases.tc001_AccountRegistrationTest - clicked on MyAccount link
+14:53:03.696 [main] INFO  testCases.tc001_AccountRegistrationTest - clicked on Register link
+14:53:03.711 [main] INFO  testCases.tc001_AccountRegistrationTest - Providing customer info...
+14:53:05.638 [main] INFO  testCases.tc001_AccountRegistrationTest - Validating expected message
+14:53:05.693 [main] INFO  testCases.tc001_AccountRegistrationTest - ***Ending tc001_AccountRegistrationTest ****
+14:53:12.056 [main] INFO  testCases.Tc002_LoginTest - ----Starting Tc002_LoginTest----
+14:53:14.045 [main] INFO  testCases.Tc002_LoginTest - ----Ending Tc002_LoginTest----
